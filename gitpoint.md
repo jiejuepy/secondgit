@@ -25,8 +25,7 @@ git diff 分支1 分支2 对比2个分支是否相同
 get merge name1 name2 分支合并，每个分支里面的修改要记得push
 git push o操作
 git stash 缓存本地修改的代码
-git stash apply 清除缓存
-git stash drop stash@{}删除某一段缓存
+git stash apply
 
 git log 查看日志
 git reset 版本号 就可以返回之前的版本
