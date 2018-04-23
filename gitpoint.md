@@ -48,7 +48,9 @@ git push origin --delete 版本号  删除远程的版本号
 
 git stash 缓存本地修改的代码
 
-git stash app
+git stash list 查看缓存列表
+
+git stash apply @{x} 释放编号为x的缓存，但该缓存还是在list中
 
 git log 查看日志
 
